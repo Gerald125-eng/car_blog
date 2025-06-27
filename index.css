@@ -16,7 +16,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px;
+    padding: 20px;
 }
 
 .logo img{
@@ -327,7 +327,7 @@ b{
         gap: 30px;
     }
      .container_image img{
-        width: 390px;
+        width: 300px;
         top: 80px;
         left: -30px;
      }
@@ -411,8 +411,7 @@ span{
 
 @media (min-width : 320px) and (max-width : 1020px){
     .care_container{
-        margin-top: 50px;
-        padding: 10px;
+        padding: 2rem;
         width: 100%;
         height: fit-content;
         flex-wrap: wrap;
@@ -420,10 +419,10 @@ span{
     }
     .care_imge{
         flex-wrap: wrap;
-        margin-left: 50px;
     }
-    .care_area_text{
-        margin-top: 50px;
+   
+    .care_area_text h1{
+        font-size: 40px;
     }
 }
 
@@ -488,7 +487,8 @@ span{
 
 @media (min-width : 320px) and (max-width : 1020px){
     .premium{
-        padding: 10px;
+        padding: 2rem;
+        margin-top: 0;
         width: 100%;
         height: fit-content;
         flex-wrap: wrap;
@@ -608,11 +608,12 @@ span h1{
 @media (min-width : 320px) and (max-width : 1020px){
     .high_option{
         padding: 20px;
-        margin-top: 90px;
+        margin-top: 30px;
         height: fit-content;
     }
     .high_{
         display: flex;
+        padding: 2rem;
         justify-content: center;
     }
 
@@ -631,7 +632,7 @@ span h1{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 390px;
+        width: 350px;
         gap: 10px;
         height: 130px;
         padding: 10px;
@@ -1087,21 +1088,27 @@ span h1{
         width: 100%;
         justify-content: center;
         flex-wrap: wrap;
-        padding: 10px;
-        margin-top: 80px;
+        padding: 5rem;
+        margin-top: 0;
     }
     .frequently h1{
       font-size: 25px;
     }
+
+    .frequently_image {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
         .frequently_image img{
-        width: 350px;
+        width: 300px;
         height: 550px;
         position: relative;
         border-radius: 30px;
     }
 
     .frequently_image div{
-        width: 300px;
+        width: 250px;
         height: 450px;
         position: absolute;
         top: 135px;
@@ -1111,30 +1118,34 @@ span h1{
     }
 
     .frequently_text_question_div h1{
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .Lorem{
+        font-size: 5px;
+    }
+
+    .frequently_text_question p{
         font-size: 8px;
     }
 
     .frequently_text_question_div img{
-        width: 18px;
-        margin-left: 5px;
-        margin-top: 5px;
+        width: 10px;
+        margin-left: 2px;
+        margin-top: 2px;
     }
 
     .frequently_text_question_div div{
-        width: 30px;
-        height: 30px;
+        width: 20px;
+        height: 20px;
         border: white solid 2px;
         border-radius: 50%;
     }
     .frequently_text_question{
     background: rgb(5, 108, 5);
     padding: 20px;
-    width: 370px;
-    height: 140px;
+    width: 300px;
+    height: 130px;
     border-radius: 30px;
     margin-top: 50px;
     }
@@ -1145,20 +1156,21 @@ span h1{
     .frequently_text_question_div1{
         display: flex;
         align-items: center;
-        gap: 50px;
+        gap: 20px;
     }
 
 
     .frequently_text_question_div1 div{
-        width: 30px;
-        height: 30px;
+        width: 20px;
+        height: 20px;
         border: rgb(18, 207, 46) solid 2px;
         border-radius: 50%;
     }
 
     .frequently_text_question_div1 img{
-        width: 15px;
-        margin-top: 5px;
+        width: 10px;
+        margin-left: 2px;
+        margin-top: 2px;
     }
     .frequently_text_question_div1 h1{
         font-size: 15px;
@@ -1166,10 +1178,21 @@ span h1{
     .frequently_text_question1{
     background: rgb(234, 247, 234);
     padding: 20px;
-    width: 370px;
+    width: 300px;
     border-radius: 30px;
     }
+    .frequently_text_question_div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+   }
+
+   .frequently_text_question_div1 h1{
+    font-size: 13px;
+   }
 }
+
+
 
 @media (min-width : 768px) and  (max-width: 1024px){
     .frequently{
@@ -1317,6 +1340,9 @@ span h1{
 
 
 
+
+
+
 /* icon_image_container2 */
 .icon_image_area2 .img_ico2 img{
     width: 260px;
@@ -1405,7 +1431,7 @@ span h1{
         height: fit-content;
         width: 100%;
         padding: 10px;
-        margin-top: 30px;
+        margin-top: 0;
     }
 
     .update_stay_text_area h1{
@@ -1417,7 +1443,8 @@ span h1{
         margin-top: 30px;
     }
     .image_update_stay_gen img{
-        width: 350px;
+        width: 300px;
+        border-radius: 0;
     }
 
     .image_update_stay{
@@ -1426,8 +1453,14 @@ span h1{
     }
 
     .text_maint h1{
-         font-size: 18px;
+         font-size: 15px;
     }
+
+    .img_maint img{
+    width: 100px;
+    height: 100px;
+    border-radius: 0;
+}
 }
 
 @media (min-width : 768px) and  (max-width: 1024px){
@@ -1534,6 +1567,17 @@ span h1{
     color:green;
     font-size: 10px;
    }
+
+   .driver_container{
+    width: 99%;
+    height: 450px;
+    background: rgba(51, 216, 125, 0.692);
+    border-radius: 0;
+    gap: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
 }
 
 

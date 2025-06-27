@@ -195,7 +195,7 @@ header{
     position: absolute;
     width: 65vw;
     top: 12rem;
-    left: 10rem;
+    left: 5rem;
     }
 }
 
@@ -317,6 +317,33 @@ header{
         justify-content: space-evenly;
         margin-top: 50px;
     }
+    .about_us img{
+    width: 300px;
+    height: 410px;
+    position: relative;
+    border-radius: 20px;
+    }
+
+    .about_us div{
+        width: 250px;
+        height: 380px;
+        position: absolute;
+        top: 15px;
+        left: 21px;
+        border: white solid 5px;
+        border-radius: 20px;
+    }
+
+    .about_us_container{
+     width: 300px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+    height: 410px;
+    background: rgb(196, 195, 193);
+    border-radius: 20px;
+    }
 
 }
 
@@ -401,6 +428,7 @@ header{
 
 
 
+
 /* our_mission */
 
 .our_mission{
@@ -423,12 +451,14 @@ header{
     text-decoration: none;
     padding: 10px 20px;
     background: #075919;
+    font-size: 10px;
     color: white;
     border-radius: 20px;
 }
 
 
 .what_we_stand_for{
+ 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -497,8 +527,8 @@ header{
     }
     .what_we_stand_for{
         flex-wrap: wrap;
+        padding: 2rem;
         gap: 30px;
-        margin-bottom: 80px;
     }
 }
 
@@ -1045,8 +1075,8 @@ header{
     .update_stay{
         height: fit-content;
         width: 100%;
-        padding: 10px;
-        margin-top: 30px;
+        padding: 3rem;
+        margin-top: 0;
     }
 
     .update_stay_text_area h1{
@@ -1058,7 +1088,8 @@ header{
         margin-top: 30px;
     }
     .image_update_stay_gen img{
-        width: 350px;
+        width: 300px;
+        border-radius: 0;
     }
 
     .image_update_stay{
@@ -1067,8 +1098,14 @@ header{
     }
 
     .text_maint h1{
-         font-size: 18px;
+         font-size: 15px;
     }
+
+    .img_maint img{
+    width: 100px;
+    height: 100px;
+    border-radius: 0;
+}
 }
 
 @media (min-width : 768px) and  (max-width: 1024px){
@@ -1175,6 +1212,17 @@ header{
     color:green;
     font-size: 10px;
    }
+
+   .driver_container{
+    width: 99%;
+    height: 450px;
+    background: rgba(51, 216, 125, 0.692);
+    border-radius: 0;
+    gap: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
 }
 
 

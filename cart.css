@@ -624,6 +624,16 @@ td{
     color:green;
     font-size: 10px;
    }
+   .driver_container{
+    width: 99%;
+    height: 450px;
+    background: rgba(51, 216, 125, 0.692);
+    border-radius: 0;
+    gap: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
 }
 
 
