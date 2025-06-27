@@ -96,8 +96,10 @@ header{
         margin-left: 140px;
     }
     .icon_area img{
-        width: 20px;
+        width: 15px;
+
     }
+   
 }
 
 @media (min-width : 768px) and  (max-width: 1024px){
