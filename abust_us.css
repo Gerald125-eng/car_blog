@@ -57,9 +57,10 @@ header{
 
 .nav_link_second{
     display: flex;
-    width: 190px;
+    width: 100%;
     height: 250px;
     padding: 20px;
+    text-align: center;
     flex-direction: column;
     position: absolute;
     top: 90px;
@@ -137,10 +138,19 @@ header{
 
 /* gerald_car */
 
+.gerald_car_text b{
+   position: relative;
+   top: 5rem;
+}
+
+.gerald_car_text u{
+    color: rgb(30, 235, 30);
+}
+
 .gerald_car{
     font-family:sans-serif ;
     width: 100%;
-    height: 100vh;
+    height: 130vh;
     position: relative;
     background: #121010;
    
@@ -158,8 +168,8 @@ header{
 .gerald_car_image img{
     position: absolute;
     width: 60vw;
-    top: 14rem;
-    left: 20rem;
+    top: 18rem;
+    left: 25rem;
 }
 
 
@@ -183,11 +193,11 @@ header{
     .gerald_car{
         
         width: 100%;
-        height: 50vh;
+        height: 80vh;
     }
 
     .gerald_car_img img{
-        top: 10rem;
+        top: 13rem;
         width: 25%;
         height: 10vh;
     }
@@ -195,8 +205,18 @@ header{
     .gerald_car_image img{
     position: absolute;
     width: 65vw;
-    top: 12rem;
+    top: 15rem;
     left: 5rem;
+    }
+    .gerald_car_text b{
+   position: relative;
+   font-size: 20px;
+   top: 2rem;
+   line-height: 0;
+    }
+
+    .gerald_car_text u{
+        color: rgb(30, 235, 30);
     }
 }
 
@@ -243,7 +263,7 @@ header{
 .about_div{
         display: flex;
         flex-wrap: wrap;
-        gap: 10px;
+        gap: 5rem;
         justify-content: space-evenly;
     }
 .about_us{
@@ -271,9 +291,10 @@ header{
      display: flex;
      align-items: center;
      justify-content: center;
+   
      text-align: center;
     height: 410px;
-    background: rgb(196, 195, 193);
+    background: rgb(243, 242, 241);
     border-radius: 20px;
 }
 
@@ -293,13 +314,14 @@ header{
     transition: 0.5s ease;
 }
 
-/* .about_us_container h1{
-    font-size: 30px;
-    margin-top: 20px;
-} */
+.about_us_containe h1{
+    font-weight: bold !important;
+}
 
 .about_us_container p{
     font-size: 18px;
+    line-height: 2rem;
+    color: #5c5b5b;
 }
 @media (min-width : 320px) and (max-width : 1020px){
     .about_us_section{
@@ -342,7 +364,7 @@ header{
      justify-content: center;
      text-align: center;
     height: 410px;
-    background: rgb(196, 195, 193);
+    background: rgb(235, 234, 232);
     border-radius: 20px;
     }
 
@@ -372,7 +394,7 @@ header{
 .roll_royce{
     width: 100%;
     height: fit-content;
-    background: #aeaeae;
+    background: #e0e0e0;
     display: flex;
     overflow: scroll;
     align-items: center;
@@ -402,11 +424,13 @@ header{
 }
 
 .driving_excellent h1{
-    font-size: 30px;
+    font-size: 50px;
+    font-weight: bold !important;
     margin-top: 130px;
 }
 
 .driving_excellent p{
+    line-height: 3rem;
     font-size: 20px;
 }
 
@@ -421,6 +445,7 @@ header{
         font-size: 25px;
     }
     .driving_excellent p{
+       line-height: 1.9rem;
         font-size: 15px;
     }
 }
@@ -468,10 +493,12 @@ header{
 
 .what_we_stand_for h1{
     font-size: 40px;
+    font-weight: bold !important;
 }
 
 .what_we_stand_for p{
     font-size: 18px;
+    line-height: 2.5rem;
 }
 
 .what_we_stand_for_img{
@@ -531,6 +558,10 @@ header{
         padding: 2rem;
         gap: 30px;
     }
+    .what_we_stand_for p{
+    font-size: 18px;
+    line-height: 1.9rem;
+    }
 }
 
 
@@ -558,8 +589,9 @@ header{
 }
 
 .commitment_text h1{
-    font-size: 45px;
+    font-size: 50px;
     text-align: center;
+    font-weight: bold !important;
 }
 
 .our_commitment_container{
@@ -608,11 +640,13 @@ header{
 }
 
 .our_commitment_container_text_area h1{
-    font-size: 45px;
+    font-size: 50px;
+    font-weight: bold !important;
 }
 
 .our_commitment_container_text_area p{
     font-size: 20px;
+    line-height: 3rem;
 }
 
 .our_commitment_container_text_area div{
@@ -652,6 +686,10 @@ header{
    .our_commitment_container_text_area{
     padding: 10px;
    }
+   .our_commitment_container_text_area p{
+    font-size: 20px;
+    line-height: 1.9rem;
+    }
 }
 
 
@@ -679,10 +717,12 @@ header{
 }
 
 .our_dedicated_text h1{
-    font-size: 45px;
+    font-size: 50px;
+    font-weight: bold !important;
 }
 .our_dedicated_text p{
     font-size: 20px;
+    line-height: 3rem;
 }
 
 .our_dedicated_text div a{
@@ -833,6 +873,7 @@ header{
 
     .our_dedicated_text p{
         font-size: 12px;
+        line-height: 1.9rem;
     }
 
     .our_dedicated_text div a{
@@ -844,6 +885,9 @@ header{
         flex-wrap: wrap;
         gap: 30px;
     }
+}
+u{
+    color: green;
 }
 
 
@@ -967,6 +1011,10 @@ header{
    width: 230px;
     height: 260px;
     border-radius: 40px;
+}
+
+._customer_container_text p{
+    line-height: 1.2rem;
 }
 
 @media (min-width : 320px) and (max-width : 1020px){

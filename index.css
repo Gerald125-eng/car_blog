@@ -56,7 +56,8 @@ header{
 
 .nav_link_second{
     display: flex;
-    width: 190px;
+    width: 100%;
+    text-align: center;
     height: 250px;
     padding: 20px;
     flex-direction: column;
@@ -109,7 +110,8 @@ header{
 
    .nav_link_second{
     display: flex;
-    width: 190px;
+    width: 100%;
+    text-align: center;
     height: 400px;
     padding: 30px;
     flex-direction: column;
@@ -147,13 +149,6 @@ header{
    
 }
 
-/* .gerald_car_img{
-    width: 100%;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(.//Image/elegant-uber-driver-giving-taxi-ride.jpg);
-} */
 
 .gerald_car_img img{
         width: 100%;
@@ -183,7 +178,7 @@ b{
 }
 
 
-
+ 
 .overlay{
     position: absolute;
     top: 0;
@@ -192,22 +187,23 @@ b{
     height: 100%;
     background-color: rgb(0, 0,0,0.6);
     z-index: 1;
-}
+} 
 
 
 @media (min-width : 320px) and (max-width : 1020px){
     .gerald_car{
         width: 100%;
-        height: fit-content;
+        height: 80vh;
     }
 
     .gerald_car_img img{
         width: 100%;
-        height: fit-content;
+        height: 80vh;
+        object-fit: cover;
     }
         .gerald_car_text{
         position: absolute;
-        top: 120px;
+        top: 250px;
         left: 15px;
         display: flex;
         align-items: center;
@@ -298,6 +294,7 @@ b{
     font-size: 30px;
 }
 .travel_section_container p{
+    line-height: 1.9rem;
     font-size: 20px;
 }
 
@@ -308,6 +305,7 @@ b{
 
 .container_image img{
     margin-top: 5rem;
+    object-fit: cover;
     border-radius: 1rem;
     width: 90rem;
     height: 39rem;
@@ -398,6 +396,7 @@ span{
 
 .care_area_text p{
     font-size: 25px;
+    line-height: 1.9rem;
 }
 
 .care_imge{
@@ -462,6 +461,7 @@ span{
 .premium_text p{
     font-size: 15px;
     margin-top: 9px;
+    line-height: 1.9rem;
 } 
 
 .container{
@@ -528,6 +528,7 @@ span{
     font-size: 45px;
 }
 .high_option_text_area p{
+    line-height: 1.9rem;
     font-size: 25px;
 }
 
@@ -550,6 +551,7 @@ span{
 
 .container_text_area p{
     font-size: 30px;
+    line-height: 1.9rem;
     color: #221f1f;
 }
 .container_premuim h3{
@@ -1402,6 +1404,7 @@ span h1{
 .image_update_stay_gen img{
     height: 550px;
     width: 600px;
+    object-fit: cover;
     border-radius: 50px;
 }
 

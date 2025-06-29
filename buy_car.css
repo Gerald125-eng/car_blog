@@ -56,9 +56,10 @@ header{
 
 .nav_link_second{
     display: flex;
-    width: 190px;
+    width: 100%;
     height: 250px;
     padding: 20px;
+    text-align: center;
     flex-direction: column;
     position: absolute;
     top: 90px;
@@ -162,6 +163,7 @@ header{
 .gerald_car_text h1{
     font-size: 60px;
     color: white;
+    font-weight: bold !important;
 }
 
 .gerald_car_text p{
@@ -188,16 +190,17 @@ b{
 @media (min-width : 320px) and (max-width : 1020px){
     .gerald_car{
         width: 100%;
-        height: 50vh;
+        height: 80vh;
     }
 
     .gerald_car_img img{
         width: 100%;
-        height: 50vh;
+        object-fit: cover;
+        height: 80vh;
     }
         .gerald_car_text{
         position: absolute;
-        top: 120px;
+        top: 250px;
         left: 15px;
         display: flex;
         align-items: center;
@@ -1718,6 +1721,7 @@ b{
     gap: 2rem;
 }
 .image_update_stay_gen img{
+    object-fit: cover;
     height: 550px;
     width: 600px;
     border-radius: 50px;
